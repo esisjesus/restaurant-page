@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #bd8715;
+$secondary: #050125;
+$dark: #000;
+$light: #fff;
+$info: #729FB5;
+$warning: #e4c900;
+$success: #4F9858;
+$danger: #F44336;
+
+body{
+    background-color: $secondary;
+}
