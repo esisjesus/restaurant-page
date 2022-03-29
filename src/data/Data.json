@@ -1,0 +1,84 @@
+{
+    "data":{
+        "burgers":[
+            {
+                "name":"Beef Burger",
+                "price": "6"
+            },
+            {
+                "name":"Cheeseburger",
+                "price": "6"
+            },
+            {
+                "name":"Creamy Mushroom",
+                "price": "7"
+            },
+            {
+                "name":"Spicy Buffalo",
+                "price": "8"
+            },
+            {
+                "name":"BBQ Burger",
+                "price": "9"
+            },
+            {
+                "name":"Hawaiian",
+                "price": "10"
+            }
+        ],
+        "appetizers":[
+            {
+                "name": "French Fries",
+                "price": "5"
+            },
+            {
+                "name": "Chicken Wings",
+                "price": "6"
+            },
+            {
+                "name": "Coleslaw",
+                "price": "3"
+            },
+            {
+                "name": "Corn on the Cob",
+                "price": "8"
+            }
+        ],
+        "beverages":[
+            {
+                "name": "Soft Drinks",
+                "price": "5"
+            },
+            {
+                "name": "Berry Frappe",
+                "price": "6"
+            },
+            {
+                "name": "Milkshake",
+                "price": "6"
+            },
+            {
+                "name": "Tropical Mix",
+                "price": "6"
+            }
+        ],
+        "desserts":[
+            {
+                "name": "Apple Pie",
+                "price": "5"
+            },
+            {
+                "name": "Berry Ice Cream",
+                "price": "6"
+            },
+            {
+                "name": "Profiterol",
+                "price": "6"
+            },
+            {
+                "name": "Cheesecake",
+                "price": "7"
+            },
+        ]
+    }
+}

@@ -13,5 +13,8 @@ $danger: #F44336;
 #content{
     background-color: $secondary;
 }
+.pointer{
+    cursor:pointer
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
