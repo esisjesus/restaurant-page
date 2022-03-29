@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/bootstrap";
+
 
 $primary: #bd8715;
 $secondary: #050125;
@@ -9,6 +9,9 @@ $warning: #e4c900;
 $success: #4F9858;
 $danger: #F44336;
 
-body{
+
+#content{
     background-color: $secondary;
 }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
