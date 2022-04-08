@@ -1,0 +1,102 @@
+{
+    "data":{
+        "burgers":[
+            {
+                "name":"Beef Burger",
+                "price": "6",
+                "image": "../public/img/beef.jpg"
+            },
+            {
+                "name":"Cheeseburger",
+                "price": "6",
+                "image": "../public/img/cheeseburger.jpg"
+            },
+            {
+                "name":"Creamy Mushroom",
+                "price": "7",
+                "image": "../public/img/mush.jpg"
+            },
+            {
+                "name":"Spicy Buffalo",
+                "price": "8",
+                "image": "../public/img/buffalo-chicken-burger.jpg"
+            },
+            {
+                "name":"BBQ Burger",
+                "price": "9",
+                "image": "../public/img/bbq.jpg"
+            },
+            {
+                "name":"Hawaiian",
+                "price": "10",
+                "image": "../public/img/Hawaiian.jpg"
+            }
+        ],
+        "appetizers":[
+            {
+                "name": "French Fries",
+                "price": "5",
+                "image": "https://www.thespruceeats.com/thmb/IHKuXcx3uUI1IWkM_cnnQdFH-zQ=/3485x2323/filters:fill(auto,1)/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpg"
+            },
+            {
+                "name": "Chicken Wings",
+                "price": "6",
+                "image": "https://images.aws.nestle.recipes/resized/1a69f85aabec474eb02d4c875c0de560_iStock-835903320_944_531.jpg"
+            },
+            {
+                "name": "Coleslaw",
+                "price": "3",
+                "image": "https://www.circuitogastronomico.com/wp-content/uploads/2020/12/coleslaw-manfrey.jpg"
+            },
+            {
+                "name": "Corn on the Cob",
+                "price": "8",
+                "image": "https://img.taste.com.au/yVIqStMK/taste/2016/11/mexican-corn-on-the-cob-90138-1.jpeg"
+            }
+        ],
+        "beverages":[
+            {
+                "name": "Soft Drinks",
+                "price": "5",
+                "image": "https://www.diageobaracademy.com/uploads/photos/d41d8cd98f00b204e9800998ecf8427e2d48e05d0a7727cb1242d2c467ab9113cf21e982a43c717e76f3fe12aaa01e6b_medium.jpg"
+            },
+            {
+                "name": "Berry Frappe",
+                "price": "6",
+                "image": "https://thumbs.dreamstime.com/b/red-berry-frappe-fruit-lots-ice-cherry-176081020.jpg"
+            },
+            {
+                "name": "Milkshake",
+                "price": "6",
+                "image": "https://t3.ftcdn.net/jpg/03/07/52/04/360_F_307520459_rhZkE6zFkM3V5gxaI8Wfb4CVuzQmF0Jx.jpg"
+            },
+            {
+                "name": "Tropical Mix",
+                "price": "6",
+                "image": "https://wallpaperaccess.com/full/3215779.jpg"
+            }
+        ],
+        "desserts":[
+            {
+                "name": "Apple Pie",
+                "price": "5",
+                "image": "https://www.antojoentucocina.com/wp-content/uploads/2018/06/apple-pie-3.jpg"
+            },
+            {
+                "name": "Berry Ice Cream",
+                "price": "6",
+                "image": "https://hips.hearstapps.com/vidthumb/images/delish-blueberry-no-churn-ice-cream-still002-1530884427.jpg?crop=0.869xw:0.772xh;0.0785xw,0.125xh&resize=1200:*"
+            },
+            {
+                "name": "Profiterol",
+                "price": "6",
+                "image": "https://t1.rg.ltmcdn.com/es/posts/0/8/6/profiteroles_caseros_11680_orig.jpg"
+            },
+            {
+                "name": "Cheesecake",
+                "price": "7",
+                "image": "https://recetascheesecake.com/wp-content/uploads/2018/10/receta-cheesecake-frio.jpg"
+            }
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 
 
-$primary: #bd8715;
-$secondary: #050125;
+$primary: #d4991a;
+$secondary: #222222;
 $dark: #000;
 $light: #fff;
 $info: #729FB5;
@@ -9,12 +9,83 @@ $warning: #e4c900;
 $success: #4F9858;
 $danger: #F44336;
 
+body{
+    overflow-x: hidden;
+}
 
 #content{
     background-color: $secondary;
+    min-height: 100vh;
+    width: fit-content;
+    display:flex;
+    flex-direction: column;
 }
 .pointer{
     cursor:pointer
 }
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../public/img/fondoburger.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .container{
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        z-index: 3;
+        display: flex;
+        
+
+        .container_center{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.74);
+            
+            .container_logo{
+                background-image: url('../public/img/burger-solid.svg');
+                height: 250px;
+                width: 250px;
+                background-repeat: no-repeat;
+            }
+        }
+
+    }
+
+    .fogeffect{
+        height: 100vh;
+        width: 100%;
+        top: -100vh;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.555);
+    }
+}
+.menu{
+    width: 100vw;
+    min-height: 100vh;
+}
+.section{
+    text-align: center;
+}
+.section_content{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:0px 100px 0px  100px ;
+}
+h1{
+    color: $primary;
+}
+.image{
+    width:285px !important;
+    height: 200px !important;
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";

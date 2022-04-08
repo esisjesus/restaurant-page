@@ -1,8 +1,7 @@
 import './custom.scss';
+import { viewDisplayer } from './container/viewDisplayer';
 
-import {navbar} from './components/header'
+viewDisplayer.showHome()
 
-const content = document.getElementById("content")
-
-content.innerHTML += navbar
-
+document.getElementById("home_header").addEventListener("click", viewDisplayer.showHome)
+document.getElementById("menu_header").addEventListener("click", viewDisplayer.showMenu)
